@@ -1,0 +1,32 @@
+Map<String, String> ar = {
+//register
+  "new_user": 'مستخدم جديد',
+  "name": "الاسم",
+  "name_withNakedName": 'الاسم واللقب',
+  "phone": 'رقم الهاتف',
+  "from_8_char": "مكون من 8 أرقام",
+  "Register": "تسجيل",
+  "login": "دخول",
+  "old_user": 'مستخدم حالي',
+  "forget_pass":"نسيت كلمة السر",
+  //otp
+  "resend": "إعادة الإرسال",
+  "in": "خلال",
+  "second": "ثانية",
+  "identy_confirm": 'تأكيد الهوية',
+  "enter_num_sent_to_phone": 'أدخل رمز التحقق المرسل إلى رقم هاتفك',
+  "dont_reacive": 'لم يصل لك رمز التحقق؟  ',
+  "confirm": "تأكيد",
+  "have_account": " لديك حساب ؟",
+  "no_have_account": " ليس لديك حساب ؟",
+  //otp
+  "verify_account":"توثيق الحساب",
+  "four_digits_code_are_send_to":"تم أرسال كود اربعة ارقام الى ",
+  "enter_code":"أدخل الكود لتوثيق حسابك .",
+  "resend_code": "أعاده الارسال الكود",
+  "verify":"تأكيد",
+  'wrong!': 'خطأ!',
+  "send": 'ارسل',
+  "change_mobile": "تغيير رقم الهاتف",
+  "delete_account": "حذف الحساب",
+};

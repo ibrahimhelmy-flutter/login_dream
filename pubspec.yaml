@@ -1,0 +1,45 @@
+name: login_dream
+version: 0.0.1
+description: this used to provide login by easy way.
+homepage: https://github.com/ibrahimhelmy-flutter
+repository: https://github.com/ibrahimhelmy-flutter/login_dream.git
+environment: 
+  sdk: '>=3.0.0-35.0.dev <4.0.0'
+  flutter: '>=1.17.0'
+
+dependencies: 
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  #lang
+  flutter_localizations:
+    sdk: flutter
+  #local storage
+  get_storage: ^2.0.3
+  #images
+  flutter_svg: ^1.1.6
+  cached_network_image: ^3.2.3
+  #shimmer and popup
+  shimmer: ^2.0.0
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/
+    - assets/icons/
+    - assets/fonts/
+    - assets/lottie/
+
+  fonts:
+    - family: ReadexPro
+      fonts:
+        - asset: assets/fonts/ReadexPro-Bold.ttf
+        - asset: assets/fonts/ReadexPro-Light.ttf
+        - asset: assets/fonts/ReadexPro-Regular.ttf
